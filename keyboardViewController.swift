@@ -1,6 +1,6 @@
 //
 //  keyboardViewController.swift
-//  testJson
+//  keyboard
 //
 //  Created by MC-MG57035 on 8/28/2560 BE.
 //  Copyright © 2560 MC-MG57035. All rights reserved.
@@ -136,7 +136,7 @@ class keyboardViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
-    //MARK number tele
+    //MARK number telephone and cedite
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if textField == textField {
